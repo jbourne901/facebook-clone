@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+}
+.outerBox {
+  width: 400px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(0,0,0, 0.6), 0px 2px 10px rgba(0,0,0, 0.6)
+}
+
+.signup-box {
+  display: flex;
+  justify-content: center;
+}
+
+.menubar {
+  background-color: transparent;
+  box-shadow: 0 0 0 transparent;
+}
+
+.menubar-div {
+  background-color: royalblue;
+}
+
+.togglesigninup {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.profile-outer {
+  display: flex;
+  margin-bottom: 10;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40;
+  border-radius: 30;
+  overflow: hidden;
+}
+
+.profile-details {
+  margin-left: 10;
+  flex: 1;
+}
+
+.profile-edit {
+  cursor: pointer;
+}
+
+.profile-about-header-outer {
+  border-top: "1px solid lightgray";  
+}
+
+.profile-about-header-inner {
+  color: "darkblue";
+  font-family: "fantasy";
+  margin-top: 10;
+}
+
+.profile-about-body {
+  font-size: 12;
+}
+
+.add-post-header {
+  font-weight: 500;
+}
+
+.add-post-tarow {
+  margin-bottom: 0;
+}
+
+.add-post-ta {
+  border: 2px solid red;
+}
+
+.add-post-buttonrow {
+  background-color: royalblue;
+  margin-top: -60;
+}
+
+.add-post-button {
+  height: 0;
+}
+
+.post-img-outer {
+  display: "flex";
+  margin-bottom: 10;
+}
+
+.post-img-inner {
+  width: 40;
+  height: 40;
+  border-radius: 30;
+  overflow: "hidden";
+}
+
+.post-userinfo-outer {
+  margin-left: 10;
+  flex: 1;
+}
+
+.post-userinfo-inner {
+  color: "#385898";
+  font-weight: 600;
+}
+
+.post-createdat {
+  font-size: 12;
+  color: "gray"
+}
+
+.post-action {
+  color: "black";
+}
